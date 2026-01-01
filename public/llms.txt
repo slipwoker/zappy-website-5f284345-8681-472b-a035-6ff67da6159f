@@ -1,0 +1,57 @@
+# Yael Rubner Zimet — Generative Engine Optimization Map
+
+> A שירותי אינטרנט ופיתוח דיגיטלי business.
+
+---
+
+## Pages
+
+### דף הבית
+https://yael-rubner-zimet-5f284345.zappy5.app
+פתרונות בניית אתרי אינטרנט וניהול אתרים מקצועיים לעסקים קטנים ובינוניים. צרו קשר עוד היום לייעוץ חינם!
+
+### שירותים
+https://yael-rubner-zimet-5f284345.zappy5.app/services
+גלו את מגוון שירותי בניית אתרי אינטרנט וניהול אתרים המקצועיים שלנו. פתרונות מותאמים אישית לעסקים קטנים ובינוניים.
+
+### אודות
+https://yael-rubner-zimet-5f284345.zappy5.app/about
+הכירו את Yael Rubner Zimet - מומחית בבניית אתרי אינטרנט וניהול אתרים לעסקים קטנים ובינוניים. למדו על הגישה והערכים שלנו.
+
+### צור קשר
+https://yael-rubner-zimet-5f284345.zappy5.app/contact
+צרו קשר עם Yael Rubner Zimet לייעוץ חינם בנושא בניית אתרי אינטרנט וניהול אתרים. נשמח לענות על כל שאלה ולעזור לכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://yael-rubner-zimet-5f284345.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://yael-rubner-zimet-5f284345.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://yael-rubner-zimet-5f284345.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Yael Rubner Zimet
+Yael Rubner Zimet is a business in the שירותי אינטרנט ופיתוח דיגיטלי industry.
+
+## Target Audience
+עסקים קטנים ובינוניים, יזמים, בעלי אתרים שאין להם זמן לניהול, בעלי חנויות פיזיות שרוצים נוכחות דיגיטלית
+
+## Industry
+שירותי אינטרנט ופיתוח דיגיטלי
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://yael-rubner-zimet-5f284345.zappy5.app/sitemap.xml
+- **Robots.txt**: https://yael-rubner-zimet-5f284345.zappy5.app/robots.txt

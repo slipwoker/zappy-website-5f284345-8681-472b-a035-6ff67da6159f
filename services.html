@@ -1,0 +1,471 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>שירותי בניית אתרי אינטרנט וניהול — Yael Rubner Zimet</title>
+<meta name="description" content="גלו את מגוון שירותי בניית אתרי אינטרנט וניהול אתרים המקצועיים שלנו. פתרונות מותאמים אישית לעסקים קטנים ובינוניים.">
+<meta name="keywords" content="בניית אתרי אינטרנט, ניהול אתרים, שירותי אינטרנט, פיתוח דיגיטלי">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+    <style id="zappy-mobile-submenu-styles">
+      /* Mobile submenu accordion styles */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu {
+          position: static !important;
+          transform: none !important;
+          box-shadow: none !important;
+          background: transparent !important;
+          margin-top: 0 !important;
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+          visibility: hidden;
+          transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
+          padding: 0 !important;
+          border-radius: 0 !important;
+        }
+        .sub-menu.mobile-expanded {
+          max-height: 500px !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+          padding: 8px 0 8px 16px !important;
+        }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded, html[lang="ar"] .sub-menu.mobile-expanded {
+          padding: 8px 16px 8px 0 !important;
+        }
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu {
+          opacity: 0; visibility: hidden; pointer-events: none;
+        }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded {
+          opacity: 1 !important; visibility: visible !important; pointer-events: auto !important;
+        }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) {
+          display: flex !important; flex-wrap: wrap !important; align-items: center !important;
+        }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a {
+          flex: 1 !important;
+        }
+        .mobile-submenu-toggle {
+          display: flex !important; align-items: center !important; justify-content: center !important;
+          width: 44px !important; height: 44px !important; background: transparent !important;
+          border: none !important; cursor: pointer !important; padding: 0 !important; margin: 0 !important;
+          flex-shrink: 0 !important; -webkit-tap-highlight-color: transparent;
+        }
+        .mobile-submenu-toggle::after {
+          content: '' !important; display: block !important; width: 0 !important; height: 0 !important;
+          border-left: 6px solid transparent !important; border-right: 6px solid transparent !important;
+          border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important;
+        }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu {
+          flex-basis: 100% !important; width: 100% !important;
+        }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; font-size: 14px !important; }
+        .sub-menu a:hover { background-color: transparent !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+<nav class="navbar" id="navbar">
+<div class="container nav-container">
+<div class="nav-brand">
+<a href="/" class="logo-link">
+<img src="/assets/yael-rubner-zimet-logo.webp" alt="Yael Rubner Zimet" class="logo">
+</a>
+</div>
+<button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
+<svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+<svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+<path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+</button>
+<button class="phone-header-btn" aria-label="התקשרו אלינו">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+</svg>
+</button>
+<ul class="nav-menu" id="navMenu">
+<li><a href="/services">שירותים</a></li>
+<li><a href="/about">אודות</a></li>
+</ul>
+<div class="nav-cta-container">
+<li class="nav-cta-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li>
+</div>
+</div>
+</nav>
+<section class="page-header">
+<div class="container">
+<h1>שירותי בניית אתרי אינטרנט וניהול מקצועיים</h1>
+<h3>פתרונות דיגיטליים מלאים שמותאמים בדיוק לצרכים שלכם</h3>
+</div>
+</section>
+<section class="section service-section" id="בניית-אתרי-אינטרנט-מותאמת-אישית" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed">
+      
+<div class="service-content">
+<h2>בניית אתרי אינטרנט מותאמת אישית</h2>
+<p>אנחנו מתמחים בבניית אתרי אינטרנט ייחודיים שמשקפים את הזהות המותגית של העסק שלכם. כל אתר שאנחנו בונים מתוכנן בקפידה כדי להבטיח שהוא לא רק נראה מעולה, אלא גם מספק חוויית משתמש מצוינת ומשיג את היעדים העסקיים שלכם.</p>
+<p>תהליך בניית אתרים לעסקים קטנים שלנו מתחיל בהבנה מעמיקה של העסק שלכם, קהל היעד והמטרות שלכם. אנחנו משתמשים בטכנולוגיות המתקדמות ביותר כדי ליצור אתרים מהירים, מאובטחים ורספונסיביים שעובדים מושלם בכל מכשיר.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> עיצוב מותאם אישית שמשקף את המותג שלכם</li>
+<li><i class="fas fa-check"></i> אופטימיזציה למנועי חיפוש (SEO)</li>
+<li><i class="fas fa-check"></i> תאימות מלאה למובייל וטאבלט</li>
+<li><i class="fas fa-check"></i> זמני טעינה מהירים וביצועים מעולים</li>
+<li><i class="fas fa-check"></i> אבטחה ברמה הגבוהה ביותר</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-4" data-context="Designer working on custom website layout with multiple design mockups and color palettes on large monitor" src="/assets/yael-rubner-zimet-service-service-4.webp" alt="בניית אתרי אינטרנט מותאמת אישית" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="ניהול-אתרים-שוטף-ותחזוקה" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed reverse">
+      
+<div class="service-content">
+<h2>ניהול אתרים שוטף ותחזוקה</h2>
+<p>שירותי ניהול אתרים שלנו מיועדים במיוחד לבעלי עסקים עסוקים שרוצים אתר מקצועי אבל אין להם זמן או ידע טכני לנהל אותו. אנחנו דואגים לכל הפן הטכני, כך שאתם יכולים להתמקד במה שאתם עושים הכי טוב - לנהל את העסק שלכם.</p>
+<p>שירות ניהול אתר אינטרנט לבעלי עסקים עסוקים שלנו כולל עדכוני תוכן סדירים, תחזוקה טכנית, גיבויים אוטומטיים, עדכוני אבטחה, ניטור ביצועים ותמיכה טכנית זמינה. אנחנו כאן כדי להבטיח שהאתר שלכם תמיד יהיה מעודכן, מאובטח ופועל בצורה מושלמת.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> עדכוני תוכן ותמונות</li>
+<li><i class="fas fa-check"></i> גיבויים אוטומטיים יומיים</li>
+<li><i class="fas fa-check"></i> עדכוני אבטחה ותוכנה</li>
+<li><i class="fas fa-check"></i> ניטור ביצועים ותקינות</li>
+<li><i class="fas fa-check"></i> תמיכה טכנית מהירה</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-5" data-context="Professional monitoring website performance metrics and analytics on dashboard with uptime statistics" src="/assets/yael-rubner-zimet-service-service-5.webp" alt="ניהול אתרים מקצועי" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="אופטימיזציה-למנועי-חיפוש-seo" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed">
+      
+<div class="service-content">
+<h2>אופטימיזציה למנועי חיפוש (SEO)</h2>
+<p>אתר יפה זה נהדר, אבל אתר שמופיע בתוצאות החיפוש הראשונות בגוגל - זה עוד יותר טוב. שירותי האופטימיזציה למנועי חיפוש שלנו מבטיחים שהאתר שלכם יימצא על ידי הלקוחות הפוטנציאליים שלכם בדיוק כשהם מחפשים את השירותים שאתם מציעים.</p>
+<p>אנחנו מבצעים מחקר מילות מפתח מעמיק, מייעלים את המבנה הטכני של האתר, יוצרים תוכן איכותי ורלוונטי, ובונים פרופיל קישורים חזק. כל זה כדי להבטיח שהאתר שלכם יקבל את הדירוג הגבוה ביותר האפשרי במנועי החיפוש.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> מחקר וניתוח מילות מפתח</li>
+<li><i class="fas fa-check"></i> אופטימיזציה טכנית של האתר</li>
+<li><i class="fas fa-check"></i> יצירת תוכן מותאם SEO</li>
+<li><i class="fas fa-check"></i> בניית קישורים איכותיים</li>
+<li><i class="fas fa-check"></i> דוחות ביצועים חודשיים</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-6" data-context="SEO specialist analyzing search rankings and keyword performance on computer with Google Analytics dashboard" src="/assets/yael-rubner-zimet-service-service-6.webp" alt="שירותי אופטימיזציה למנועי חיפוש" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="עיצוב-חוויית-משתמש-uxui" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed reverse">
+      
+<div class="service-content">
+<h2>עיצוב חוויית משתמש (UX/UI)</h2>
+<p>חוויית משתמש טובה היא המפתח להצלחה של כל אתר. אנחנו מעצבים ממשקים אינטואיטיביים ונעימים לשימוש שמקלים על המבקרים שלכם למצוא את מה שהם מחפשים ולבצע את הפעולות הרצויות - בין אם זה לקנות מוצר, למלא טופס יצירת קשר או להירשם לניוזלטר.</p>
+<p>הגישה שלנו משלבת מחקר משתמשים, עיצוב ויזואלי מרשים ופונקציונליות מתקדמת. אנחנו יוצרים חוויות דיגיטליות שממירות מבקרים ללקוחות ומגדילות את שיעורי ההמרה של האתר שלכם.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> מחקר וניתוח משתמשים</li>
+<li><i class="fas fa-check"></i> עיצוב ממשק משתמש אינטואיטיבי</li>
+<li><i class="fas fa-check"></i> אופטימיזציה של שיעורי המרה</li>
+<li><i class="fas fa-check"></i> בדיקות שימושיות</li>
+<li><i class="fas fa-check"></i> עיצוב רספונסיבי מלא</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-7" data-context="UX designer creating user interface wireframes and prototypes on digital tablet with stylus" src="/assets/yael-rubner-zimet-service-service-7.webp" alt="עיצוב חוויית משתמש מקצועי" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="אינטגרציה-וחיבור-מערכות" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed">
+      
+<div class="service-content">
+<h2>אינטגרציה וחיבור מערכות</h2>
+<p>האתר שלכם צריך להשתלב בצורה חלקה עם המערכות העסקיות שלכם. אנחנו מתמחים בחיבור אתרים למגוון רחב של מערכות - CRM, מערכות תשלום, כלי שיווק, מערכות ניהול מלאי ועוד.</p>
+<p>האינטגרציות שלנו מבטיחות זרימת מידע חלקה בין המערכות השונות, מפחיתות עבודה ידנית ומשפרות את היעילות העסקית שלכם. אנחנו עובדים עם כל המערכות המובילות בשוק ויכולים ליצור חיבורים מותאמים אישית לפי הצרכים הספציפיים שלכם.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> חיבור למערכות CRM</li>
+<li><i class="fas fa-check"></i> אינטגרציה עם שערי תשלום</li>
+<li><i class="fas fa-check"></i> חיבור לכלי שיווק ואנליטיקה</li>
+<li><i class="fas fa-check"></i> סנכרון עם מערכות מלאי</li>
+<li><i class="fas fa-check"></i> API מותאמים אישית</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-8" data-context="Developer working on API integration connecting multiple business systems with code on screen" src="/assets/yael-rubner-zimet-service-service-8.webp" alt="אינטגרציה וחיבור מערכות" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="ייעוץ-דיגיטלי-ואסטרטגיה" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed reverse">
+      
+<div class="service-content">
+<h2>ייעוץ דיגיטלי ואסטרטגיה</h2>
+<p>לפני שמתחילים לבנות, חשוב לתכנן. שירותי הייעוץ הדיגיטלי שלנו עוזרים לכם להגדיר מטרות ברורות, לזהות הזדמנויות ולפתח אסטרטגיה דיגיטלית מנצחת שתוביל את העסק שלכם להצלחה באינטרנט.</p>
+<p>אנחנו מנתחים את השוק שלכם, חוקרים את המתחרים, מזהים את קהל היעד ומפתחים תוכנית פעולה מפורטת. הייעוץ שלנו כולל המלצות לגבי טכנולוגיות, ערוצי שיווק, תוכן ועיצוב - כל מה שצריך כדי להבטיח שההשקעה הדיגיטלית שלכם תניב תוצאות מקסימליות.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> הגדרת מטרות ו-KPI</li>
+<li><i class="fas fa-check"></i> ניתוח שוק ומתחרים</li>
+<li><i class="fas fa-check"></i> אסטרטגיית תוכן ושיווק</li>
+<li><i class="fas fa-check"></i> המלצות טכנולוגיות</li>
+<li><i class="fas fa-check"></i> תוכנית פעולה מפורטת</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-9" data-context="Business consultant presenting digital strategy roadmap on whiteboard to team in modern office" src="/assets/yael-rubner-zimet-service-service-9.webp" alt="ייעוץ דיגיטלי ואסטרטגיה" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="אחסון-ותמיכה-טכנית" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detailed">
+      
+<div class="service-content">
+<h2>אחסון ותמיכה טכנית</h2>
+<p>אתר מהיר ויציב מתחיל באחסון איכותי. אנחנו מציעים שירותי אחסון מנוהל מלא שכוללים שרתים מהירים ומאובטחים, תעודות SSL, גיבויים אוטומטיים וניטור תקינות 24/7. האתר שלכם יהיה תמיד זמין ויעבוד בצורה מושלמת.</p>
+<p>בנוסף לאחסון, אנחנו מספקים תמיכה טכנית מקצועית ומהירה. אם משהו לא עובד כמו שצריך או שיש לכם שאלה, הצוות שלנו כאן כדי לעזור. אנחנו מגיבים במהירות ופותרים בעיות ביעילות, כך שאתם יכולים להמשיך להתמקד בעסק שלכם.</p>
+<ul class="service-features">
+<li><i class="fas fa-check"></i> שרתים מהירים ומאובטחים</li>
+<li><i class="fas fa-check"></i> תעודות SSL חינם</li>
+<li><i class="fas fa-check"></i> גיבויים אוטומטיים יומיים</li>
+<li><i class="fas fa-check"></i> ניטור תקינות 24/7</li>
+<li><i class="fas fa-check"></i> תמיכה טכנית מהירה</li>
+</ul>
+</div>
+<div class="service-image">
+<img data-placeholder="service-10" data-context="Modern data center server room with rows of servers and monitoring systems showing uptime status" src="/assets/yael-rubner-zimet-service-service-10.webp" alt="אחסון ותמיכה טכנית" class="service-img">
+</div>
+
+    </div>
+  </div>
+</section>
+<section class="cta-section">
+<div class="container">
+<div class="cta-box">
+<h2>מעוניינים לשמוע עוד?</h2>
+<p>בואו נדבר על הפרויקט שלכם. נשמח להציע לכם פתרון מותאם אישית שיענה בדיוק על הצרכים והמטרות של העסק שלכם.</p>
+<a href="/contact" class="btn-primary">צור קשר לייעוץ חינם</a>
+</div>
+</div>
+</section>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2026 Yael Rubner Zimet. כל הזכויות שמורות.</p>
+          </div>
+          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+          <div class="footer-legal">
+            <a href="/privacy" aria-label="מדיניות פרטיות">
+              מדיניות פרטיות
+            </a>
+            <span class="separator">|</span>
+            <a href="/accessibility" aria-label="נגישות">
+              נגישות
+            </a>
+            <span class="separator">|</span>
+            <a href="/terms" aria-label="תנאי שימוש">
+              תנאי שימוש
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>נוצר באמצעות&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '5f284345-8681-472b-a035-6ff67da6159f';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+    })();
+    </script>
+    <script src="/script.js"></script>
+</body></html>

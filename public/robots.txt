@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yael-rubner-zimet-5f284345.zappy5.app/sitemap.xml
